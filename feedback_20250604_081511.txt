@@ -1,0 +1,20 @@
+URL: https://github.com/Trish-Pat/Data-Handling-and-Analysis-in-Python/blob/main/Exercise2.py
+suggestions for improvement:
+- Exercise 1: The code only prints 'hello world' once, not four times as instructed.
+- Exercise 2: The code is missing the calculation for (99^3) * 8.
+- Exercise 3: The code correctly predicts the output for the comparisons except for '3 == "3"' (which should be False) and '"3" > 3' (which depends on the string comparison behavior and should be clarified). The output of int(3)>3 is not as per the exercise.
+- Exercise 4: The code creates the variable and prints the sentence correctly, but could use f-strings for better readability.
+- Exercise 5: The code creates the variables correctly, but the `info` variable's sentence construction can be improved with f-strings and proper grammar.
+- Exercise 6: The code correctly implements the conditional statement based on variable comparison.
+- Exercise 7: The code has a logic error: it prints 'odd' for even numbers and vice-versa.
+- Exercise 8: The code correctly implements the name comparison and prints different messages accordingly. However the message could be friendlier.
+- Exercise 9: The code correctly implements the height check and prints the appropriate messages.
+- Use f-strings for better readability and string formatting in multiple exercises.
+- Add error handling for user input (e.g., ensure the user enters a number for exercises 7 and 9).
+- Improve the structure and add comments for better readability and maintainability.
+Brief justification:
+- correctness: The code partially solves the exercises.  Exercise 1, 2, 3 (partially), 5, and 7 have errors. Others are correctly implemented.  The correctness score reflects the number of correctly solved exercises and the severity of errors in others.  Refer to the feedback for detailed explanations of each exercise.
+- readability: The code's readability is decent, but it can be improved.  There is a lack of comments and inconsistent formatting. Use of f-strings would improve readability. Refer to feedback for improvement suggestions.
+- performance: The code's performance is good for the given tasks. The algorithms used are efficient for these small-scale computations.
+- security: There are no security vulnerabilities in this code because it doesn't interact with external resources or handle sensitive data.
+
